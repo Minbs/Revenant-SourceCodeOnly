@@ -6,11 +6,6 @@ using UnityEngine;
 
 public class Objective_TutoTakeHatch : Objective
 {
-	/*
-	6번쨰 튜토리얼
-	1. 구르기
-	*/
-
 	private Player_InputMgr m_InputMgr;
 
 	// Objective Variables

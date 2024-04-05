@@ -5,11 +5,6 @@ using UnityEngine;
 
 public class Objective_TutoRoll : Objective
 {
-     /*
-     5번쨰 튜토리얼
-     1. 구르기
-     */
-    
     private Player_InputMgr m_InputMgr;
 
     // Objective Variables

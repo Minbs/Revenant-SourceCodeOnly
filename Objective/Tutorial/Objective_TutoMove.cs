@@ -4,12 +4,6 @@
 
 public class Objective_TutoMove : Objective
 {
-     /*
-     두 번쨰로 하는 목표
-     1. A키 누르기
-     2. D키 누르기
-     */
-    
     private Player_InputMgr m_InputMgr;
 
 
@@ -23,7 +17,6 @@ public class Objective_TutoMove : Objective
 
     public override void InitObjective(ObjectiveMgr _mgr, ObjectiveUI _ui)
     {
-        Debug.Log("move");
         m_ObjMgr = _mgr;
         m_ObjUI = _ui;
         

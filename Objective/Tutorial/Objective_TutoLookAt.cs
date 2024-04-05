@@ -7,12 +7,6 @@ using UnityEngine.Assertions.Must;
 
 public class Objective_TutoLookAt : Objective
 {
-    /*
-     첫 번쨰로 하는 목표
-     1. 왼쪽 보기
-     2. 오른쪽 보기
-     */
-    
     private Player_InputMgr m_InputMgr;
 
     // Objective Variables

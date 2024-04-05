@@ -3,11 +3,7 @@
 
 public class Objective_TutoReload : Objective
 {
-/*
-     네 번쨰로 하는 목표
-     1. 장전하기
-     */
-    
+
     private Player_InputMgr m_InputMgr;
 
     // Objective Variables

@@ -3,12 +3,7 @@ using UnityEngine;
 
 
 public class Objective_TutoEnterDoor : Objective
-{
-     /*
-     5번쨰 튜토리얼
-     1. 구르기
-     */
-    
+{    
     private Player_InputMgr m_InputMgr;
 
     // Objective Variables
@@ -47,7 +42,7 @@ public class Objective_TutoEnterDoor : Objective
                 if (m_Count == 0)
                 {
     				float proceed = 0;
-	    			proceed = Mathf.InverseLerp(p_tutorialStair.p_StairTopTransform.position.y, p_tutorialStair.p_StairBottomTransform.position.y, m_Player.transform.position.y); // 계단 오르기 진행도
+	    			proceed = Mathf.InverseLerp(p_tutorialStair.p_StairTopTransform.position.y, p_tutorialStair.p_StairBottomTransform.position.y, m_Player.transform.position.y);
 		    		if (proceed >= 0.99f)
 			    	{
 				    	proceed = 1;

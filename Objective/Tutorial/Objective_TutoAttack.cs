@@ -7,12 +7,7 @@ using UnityEngine;
 
 public class Objective_TutoAttack : Objective
 {
- /*
-     두 번쨰로 하는 목표
-     1. A키 누르기
-     2. D키 누르기
-     */
-    
+ 
     private Player_InputMgr m_InputMgr;
 
     // Objective Variables
